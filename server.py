@@ -22,12 +22,14 @@ def handle_info():
     TIP: If you open your Battlesnake URL in browser you should see this data.
     """
     print("INFO")
+
     return {
         "apiversion": "1",
         "author": "",  # TODO: Your Battlesnake Username
         "color": "#888888",  # TODO: Personalize
-        "head": "default",  # TODO: Personalize
+        "head": "beluga",  # TODO: Personalize
         "tail": "default",  # TODO: Personalize
+
     }
 
 
